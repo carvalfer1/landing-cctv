@@ -1,0 +1,17 @@
+Hight order function.
+
+Arrays immutability methods:
+array.concat
+array.filter
+
+
+Arrays Mutability methods:
+array.splice(id,1); -> delete from the array the element with id:1
+
+
+Nose Js Run Order
+Va al archivo package.json / si no lo encuentra va al index.js
+El package.json ejecuta babel para traducir el codigo js es6 a un javascript entendible por los navegadores.
+
+
+Hola

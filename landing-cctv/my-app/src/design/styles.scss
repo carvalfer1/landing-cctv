@@ -1,0 +1,19 @@
+@import './colors.scss';
+@import './responsive-rules.scss';
+
+#root{
+    height: 100%;
+    div{
+        ul{
+            padding-left: 10%;
+        }        
+    }
+}
+
+.spin-container {
+    text-align: center;
+    padding-top: 10%;
+    i{
+        font-size: 40px !important;
+    }
+}

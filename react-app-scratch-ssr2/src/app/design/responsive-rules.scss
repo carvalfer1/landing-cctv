@@ -1,0 +1,156 @@
+@import './params.scss';
+
+@media screen and (max-width:940px)
+{
+    .header{
+        display: none !important;
+    }
+    .cameras{
+        display: none !important;
+    }
+    .header-mobile{
+        display: block !important;
+    }
+    .application .block-1 div{
+        margin-top: 10px !important;
+    }
+    .application .block-1 div h3{
+        padding: 0PX 10%;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width:530px)
+{
+    .footer-home{
+        .bit-information{
+            flex-wrap: wrap;
+        }
+        .contact-information{
+            display: flex;
+            width: 100% !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo{
+            text-align: center !important;
+            width: 100% !important;
+        }
+        
+    }
+    .box-promotion{
+        width: 290px !important;
+    }
+    .box-instalation{
+        width: 290px !important;
+    }
+}
+
+@media screen and (max-width:$mobile-size)
+{
+    span, p{
+        font-size: $mobile-font-size;
+    }
+    .ant-card-head-title{
+        font-size: $mobile-title-size;
+    }
+    .cameras img{
+        width: 200px;
+    }
+
+    .application .header .central-title{
+        display: none !important;
+    }
+
+    .application .header .top-container .complement{
+        text-align: center !important;
+    }
+    .application .header .top-container h4, .application .header .top-container .call-us{
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width:$tablet-size) and (min-width:$mobile-size)
+{
+    .application .header .central-title{
+        top:15vh;
+        h1{
+            font-size: 27px;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+
+    .cameras img{
+        width: 300px;
+    }
+
+    span, p{
+        font-size: $mobile-font-size;
+    }
+
+    .ant-card-head-title{
+        font-size: $mobile-title-size;
+    }
+}
+
+
+@media screen and (max-width:$middle-screen-size) and (min-width:$tablet-size)
+{
+    .application .header .central-title{
+        top:20vh;
+        h1{
+            font-size:35px;
+        }
+        span{
+            font-size: 16px;
+        }
+    }
+
+    .cameras img{
+        width: 340px;
+        margin-top: 20px;
+    }
+
+    span, p{
+        font-size: $middle-screen-font-size;
+    }
+
+    .ant-card-head-title{
+        font-size: $middle-screen-title-size;
+    }
+}
+
+@media screen and (min-width:$middle-screen-size)
+{
+    .cameras img{
+        width: 350px;
+        margin-top: 20px;
+    }
+    .application .header .central-title{
+        top:30vh;
+        h1{
+            font-size: 40px;
+        }
+        span{
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width:720px)
+{
+    .covid .block-2 .features div{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width:721px)
+{
+    .covid .block-2 .features div{
+        width: 50% !important;
+    }
+}

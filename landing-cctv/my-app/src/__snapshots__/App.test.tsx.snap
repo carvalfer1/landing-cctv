@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Born Snaptshot 1`] = `
+<Layout>
+  <div>
+    Content
+  </div>
+</Layout>
+`;

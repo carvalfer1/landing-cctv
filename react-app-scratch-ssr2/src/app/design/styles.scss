@@ -1,0 +1,227 @@
+@import "./colors.scss";
+@import "./responsive-rules.scss";
+
+.background-for-text {
+  flex-direction: column;
+  background-color: #00000078;
+  padding: 30px;
+  border-radius: 5px;
+  color: #eaeaea;
+  h1 {
+    color: #eaeaea;
+  }
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+.header-logo-container {
+  background: white;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #c20965;
+}
+
+.mobile-header-bg-text {
+  flex-direction: column;
+  background-color: #00000082;
+  padding: 0px 20px 40px 20px;
+  color: #eaeaea;
+  h1 {
+    color: #eaeaea;
+  }
+}
+.header-mobile{
+  .btn-action-a-container {
+    margin-bottom: 0px;
+  }
+}
+.bg-img-header-mobile {
+  // background-image: url("/public/media/clientefeliz2.jpg") !important;
+}
+.primary-color {
+  color: $primary-color;
+}
+.secundary-color {
+  color: $secundary-color;
+}
+.btn-action-a-container {
+  margin-bottom: 40px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-bottom-60 {
+  margin-bottom: 60px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.call-to-action-button {
+  background-color: $secundary-color;
+  border-color: $secundary-color;
+  width: 300px;
+  height: 50px;
+  &__primary-color {
+    background-color: $primary-color !important;
+    border-color: $primary-color !important;
+    &:hover {
+      background-color: $third-color !important;
+      border-color: $third-color;
+    }
+    &:focus {
+      background-color: $third-color !important;
+      border-color: $third-color;
+    }
+  }
+  &__third-color {
+    background-color: white !important;
+    border-color: $black-color-text !important;
+    &:hover {
+      background-color: $background-gray-2 !important;
+      border-color: $background-gray-2;
+    }
+    &:focus {
+      background-color: $background-gray-2 !important;
+      border-color: $background-gray-2;
+    }
+    span {
+      color: $black-color-text;
+      font-weight: 100;
+    }
+    i {
+      color: $primary-color;
+    }
+  }
+
+  span {
+    font-size: 1rem;
+  }
+  &:hover {
+    background-color: $seventh-color;
+    border-color: $secundary-color;
+  }
+  &:focus {
+    background-color: $seventh-color;
+    border-color: $secundary-color;
+  }
+}
+
+.covid {
+  .block-1 {
+    border-bottom: 1px solid gray;
+    border-bottom-style: dashed;
+  }
+  .rule {
+    height: 1px;
+    border-bottom: 1px solid #ececec;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .pasos-4 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .block-1 {
+    div:first-child {
+      margin-bottom: 0px;
+    }
+    > div {
+      margin-top: 30px !important;
+    }
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block-2 {
+    .features {
+      margin-top: 50px !important;
+      > div {
+        text-align: left;
+        p {
+          color: #cccccc;
+          font-size: 1.1rem;
+        }
+        i {
+          font-size: 16px !important;
+          margin-top: 22px;
+          margin-bottom: 10px;
+          color: #15808f;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  .block-3 {
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      margin-bottom: 40px;
+      width: 80%;
+    }
+  }
+
+  .instalation {
+    display: none;
+    .box-instalation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 45px !important;
+      }
+    }
+  }
+}
+
+iframe {
+  border-radius: 2px;
+  border: 0px;
+  margin: 10px;
+}
+
+#root {
+  height: 100%;
+  div {
+    ul {
+      padding-left: 10%;
+    }
+  }
+}
+
+.spin-container {
+  text-align: center;
+  padding-top: 10%;
+  i {
+    font-size: 40px !important;
+  }
+}
+
+.container-layout {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background-color: #fff;
+  border-color: #15808f;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background: #15808f;
+}

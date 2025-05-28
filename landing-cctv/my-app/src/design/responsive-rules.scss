@@ -1,0 +1,22 @@
+@import './params.scss';
+
+@media screen and (max-width:$mobile-size)
+{
+    span, p{
+        font-size: $mobile-font-size;
+    }
+    .ant-card-head-title{
+        font-size: $mobile-title-size;
+    }
+}
+
+@media screen and (max-width:$tablet-size)
+{
+    span, p{
+        font-size: $mobile-font-size;
+    }
+
+    .ant-card-head-title{
+        font-size: $mobile-title-size;
+    }
+}
